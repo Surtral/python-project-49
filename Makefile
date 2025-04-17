@@ -11,4 +11,6 @@ build:
 
 package-install:
 	uv pip install dist/*.whl
-	
+
+lint:
+	uv run ruff check brain_games --fix
