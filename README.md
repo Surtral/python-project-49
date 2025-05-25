@@ -5,3 +5,5 @@
 ### Asciinema
 python-project-49/brain-calc.cast
 python-project-49/brain-games.cast
+python-project-49/brain-gcd-cast
+python-project-49/brain-prog.cast
