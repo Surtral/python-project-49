@@ -1,5 +1,7 @@
 import random
+
 from brain_games.cli import welcome_user
+
 
 def make_progression():
     start = random.randint(1, 20)

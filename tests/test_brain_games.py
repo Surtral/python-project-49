@@ -1,5 +1,6 @@
 from brain_games.scripts.brain_games import main
 
+
 def test_main_output(capsys):
     main()
     captured = capsys.readouterr()
