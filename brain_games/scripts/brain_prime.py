@@ -21,6 +21,7 @@ def is_prime(number):
 def main():
 
     name = welcome_user()
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for _ in range(3):
 
         number = random.randint(1, 100)
