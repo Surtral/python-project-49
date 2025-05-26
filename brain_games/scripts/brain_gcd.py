@@ -11,7 +11,7 @@ def main():
     for _ in range(3):
         a, b = random.randint(1,100), random.randint(1,100)
         correct = math.gcd(a,b)
-        print(f'Queston: {a} {b}')
+        print(f'Question: {a} {b}')
         ansver = input("Your answer: ").strip()
 
         if int(ansver) != correct:
