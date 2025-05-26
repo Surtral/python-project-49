@@ -8,7 +8,7 @@ def main():
         num1 = secrets.randbelow(100) + 1
         num2 = secrets.randbelow(100) + 1
         operations = ['+', '-', '*']
-        operation = random.choice(operations)
+        operation = secrets.choice(operations)
         print("What is the result of the expression?")
         print(f'Question: {num1} {operation} {num2}')
         user_answer = int(input("Your answer: "))
