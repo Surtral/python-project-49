@@ -1,4 +1,3 @@
-import random
 import secrets
 
 from brain_games.cli import welcome_user

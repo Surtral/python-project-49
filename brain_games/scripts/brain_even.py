@@ -1,6 +1,4 @@
-import random
 import secrets
-
 
 
 def is_even(number):

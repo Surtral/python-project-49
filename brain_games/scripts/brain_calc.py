@@ -1,5 +1,5 @@
-import random
 import secrets
+
 
 def main():
     from brain_games.cli import welcome_user

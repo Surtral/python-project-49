@@ -1,9 +1,7 @@
-import random
 import secrets
 
 from brain_games.cli import welcome_user
 
-        
 
 def make_progression():
     start = secrets.randbelow(20) + 1
