@@ -1,5 +1,6 @@
 import math
 import random
+import secrets
 
 from brain_games.cli import welcome_user
 
@@ -9,7 +10,7 @@ def main():
     print("Find the greatest common divisor of given numbers.")
 
     for _ in range(3):
-        a, b = random.randint(1, 100), random.randint(1, 100)
+        a, b = secrets.randbelow(100) + 1, secrets.randbelow(100) + 1
         correct = math.gcd(a, b)
         print(f'Question: {a} {b}')
         ansver = input("Your answer: ").strip()

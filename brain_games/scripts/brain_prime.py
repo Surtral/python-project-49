@@ -1,4 +1,5 @@
 import random
+import secrets
 
 from brain_games.cli import welcome_user
 
@@ -25,7 +26,8 @@ def main():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for _ in range(3):
 
-        number = random.randint(1, 100)
+        number = secrets.randbelow(100) + 1
+
         print(f"Question: {number}")
         
         user_answer = input("Your answer: ").strip().lower()

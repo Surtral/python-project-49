@@ -1,13 +1,15 @@
 import random
+import secrets
 
 from brain_games.cli import welcome_user
 
+        
 
 def make_progression():
-    start = random.randint(1, 20)
-    step = random.randint(1, 10)
-    length = random.randint(5, 10)
-    missing_index = random.randint(0, length - 1)
+    start = secrets.randbelow(20) + 1
+    step = secrets.randbelow(10) + 1
+    length = secrets.randbelow(6) + 5
+    missing_index = secrets.randbelow(length)
     
     progression = [start + step * i for i in range(length)]
     answer = progression[missing_index]

@@ -1,4 +1,6 @@
 import random
+import secrets
+
 
 
 def is_even(number):
@@ -10,7 +12,7 @@ def main():
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for i in range(3):
-        number = random.randint(1, 100)
+        number = secrets.randbelow(100) + 1
         print(f'Question: {number}')
         user_answer = input("Is it even? (yes/no)")
         correct_answer = "yes" if is_even(number) else "no"
