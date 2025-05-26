@@ -15,6 +15,7 @@ def make_progression():
     
     return progression, answer
 
+
 def main():
     name = welcome_user()
     print("What number is missing in the progression?")
@@ -32,6 +33,7 @@ def main():
             return
     
     print(f"Congratulations, {name}!")
+
 
 if __name__ == '__main__':
     main()

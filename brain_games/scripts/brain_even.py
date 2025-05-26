@@ -4,6 +4,7 @@ import random
 def is_even(number):
     return number % 2 == 0
 
+
 def main():
     from brain_games.cli import welcome_user
     name = welcome_user()
@@ -21,6 +22,7 @@ def main():
             break
     else:
         print(f"Congratulations, {name}!")
-    
+
+
 if __name__ == "__main__":
     main()

@@ -9,8 +9,8 @@ def main():
     print("Find the greatest common divisor of given numbers.")
 
     for _ in range(3):
-        a, b = random.randint(1,100), random.randint(1,100)
-        correct = math.gcd(a,b)
+        a, b = random.randint(1, 100), random.randint(1, 100)
+        correct = math.gcd(a, b)
         print(f'Question: {a} {b}')
         ansver = input("Your answer: ").strip()
 
@@ -19,3 +19,7 @@ def main():
             print(f"Let's try again, {name}!")
             return
     print(f"Congratulations, {name}!")
+
+
+if __name__ == "__main__":
+    main()

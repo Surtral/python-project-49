@@ -18,6 +18,7 @@ def is_prime(number):
         i += 6
     return True
 
+
 def main():
 
     name = welcome_user()
@@ -38,6 +39,7 @@ def main():
             return
     
     print(f"Congratulations, {name}!")
+
 
 if __name__ == '__main__':
     main()
