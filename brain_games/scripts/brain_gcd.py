@@ -15,7 +15,10 @@ def main():
         ansver = input("Your answer: ").strip()
 
         if int(ansver) != correct:
-            print(f"'{ansver}' is wrong answer ;(. Correct answer was '{correct}'.")
+            print(
+                f"'{ansver}' is wrong answer ;(. "
+                f"Correct answer was '{correct}'."
+            )
             print(f"Let's try again, {name}!")
             return
     print(f"Congratulations, {name}!")

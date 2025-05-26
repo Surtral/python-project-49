@@ -28,7 +28,10 @@ def main():
         if user_answer == str(answer):
             print("Correct!")
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{answer}'.")
+            print(
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{answer}'."
+            )
             print(f"Let's try again, {name}!")
             return
     
