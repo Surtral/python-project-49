@@ -1,12 +1,12 @@
 import random
-
+import secrets
 
 def main():
     from brain_games.cli import welcome_user
     name = welcome_user()
     for _ in range(3):
-        num1 = random.randint(1, 100)
-        num2 = random.randint(1, 100)
+        num1 = secrets.randbelow(100) + 1
+        num2 = secrets.randbelow(100) + 1
         operations = ['+', '-', '*']
         operation = random.choice(operations)
         print("What is the result of the expression?")
