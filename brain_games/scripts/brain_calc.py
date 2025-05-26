@@ -7,7 +7,7 @@ def main():
     for _ in range(3):
         num1 = random.randint(1,100)
         num2 = random.randint(1,100)
-        operations = ['+', '-', '*', '//']
+        operations = ['+', '-', '*']
         operation = random.choice(operations)
         print("What is the result of the expression?")
         print(f'Question: {num1} {operation} {num2}')
@@ -17,8 +17,6 @@ def main():
             result = num1 + num2 
         elif operation == "-":
             result = num1 - num2
-        elif operation == "//":
-            result = num1 // num2
         elif operation == "*":
             result = num1 * num2
     
