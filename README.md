@@ -1,6 +1,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Surtral/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Surtral/python-project-49/actions)
 
+### Cтатус качества кода
+![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Surtral_python-project-49&metric=alert_status)
 
 ### Asciinema
 python-project-49/brain-calc.cast
