@@ -11,7 +11,7 @@ def main():
     from brain_games.cli import welcome_user
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    for i in range(3):
+    for _ in range(3):
         number = secrets.randbelow(100) + 1
         print(f'Question: {number}')
         user_answer = input("Is it even? (yes/no)")
